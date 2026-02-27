@@ -98,7 +98,7 @@ h2 {
 }
 
 #max{
-    background-color: rgb(11, 11, 157);
+    background-color: #000B8D;
     transition: transform 0.5s ease;
 }
 
@@ -107,23 +107,23 @@ h2 {
 }
 
 #checo{
-    background-color: rgb(11, 11, 157);
+    background-color: #AAAADD;
     transition: transform 0.5s ease;
 }
 #checo:hover {
     transform: rotate(1deg);
 }
 #alonso{
-    background-color: rgb(24, 142, 6);
+    background-color: #229971;
     transition: transform 0.5s ease;
 }
 
 #alonso:hover {
-    transform: rotate(-1deg);
+    transform: rotate(1deg);
 }
 
 #leclerc{
-    background-color: rgb(184, 8, 8);
+    background-color: #E80020;
     transition: transform 0.5s ease;
 }
 
@@ -139,3 +139,60 @@ h2 {
     transform: scale(1.05);
 }
 
+.equipos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ConEquipos{
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto ;
+    color: #fff;
+    background-color: #000;
+}
+
+#redbull{
+    background-color: #000B8D;
+    transition: transform 0.5s ease;
+}
+
+#redbull:hover {
+    transform: rotate(1deg);
+}
+
+#cadillac{
+    background-color: #AAAADD;
+    transition: transform 0.5s ease;
+}
+#cadillac:hover {
+    transform: rotate(1deg);
+}
+#aston{
+    background-color: #229971;
+    transition: transform 0.5s ease;
+}
+
+#aston:hover {
+    transform: rotate(-1deg);
+}
+
+#ferrari{
+    background-color: #E80020;
+    transition: transform 0.5s ease;
+}
+
+#ferrari:hover {
+    transform: rotate(1deg);
+}
+
+.imgEquipos{
+    transition: transform 0.5s ease 0.5s ease;
+}
+
+.imgEquipos:hover {
+    transform: scale(1.05);
+}
