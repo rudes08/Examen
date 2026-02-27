@@ -94,7 +94,7 @@ h2 {
     max-width: 1200px;
     margin: 0 auto ;
     color: #fff;
-    background-color: #000;
+    
 }
 
 #max{
@@ -152,7 +152,7 @@ h2 {
     max-width: 1200px;
     margin: 0 auto ;
     color: #fff;
-    background-color: #000;
+    
 }
 
 #redbull{
@@ -196,3 +196,29 @@ h2 {
 .imgEquipos:hover {
     transform: scale(1.05);
 }
+
+.newsletter{
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: #000 solid 1px;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.formulario label, input, button {
+    display: block;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.formulario input, button {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+
+
+
