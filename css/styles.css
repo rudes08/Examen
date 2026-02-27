@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    text-decoration: none;
+    padding: 15px 20px;
+    list-style: none;
+    transition: 1s;
+}
+
+.menu a :hover {
+    background-color: #eb0303;
+    color: #000;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 20px;
+}
