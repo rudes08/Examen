@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/8afe4f18c1.js" crossorigin="anonymous"></script>
     <title>F1</title>
 </head>
 <body>
     <header>
-        <div class="logo">F1</div>
+        <i class="fa-solid fa-flag logoI" style="color: rgb(255, 255, 255);">F1</i>
         <nav>
             <ul class="menu">
                 <li><a href="#inicio">Inicio</a></li>
@@ -101,20 +102,25 @@ Pero durante los test de pretemporada en Bahréin, Aston Martin enfrentó múlti
             <h2>Newsletter</h2>
             <h3>Suscríbete para recibir las últimas noticias</h3>
             <form action="#" method="post" class="formulario">
+                <label for="nombre">Nombre completo</label>
                 <input type="text" name="nombre" placeholder="Checo Perez" required>
                 <label for="email">Correo electrónico:</label>
                 <input type="email" name="email" 
-                placeholder="ejemplo@ejem.com" required>
+                placeholder="ejemplo@ejem.com" required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                 <label for="comentario">Comentario:</label>
                 <input type="text" name="comentario" placeholder="Escribe tu comentario aquí" required>
                 <button type="submit">Suscribirse</button>
             </form>
         </section>
 
-        </footer>
+        <section id="logo" class="logo">
+            <img src="img/f1Logo.png" alt="" id="imgLogo">
+        </section>
         </div>
 
 
     </main>
+
+    <footer>Axel de Jesus Arriaga Castillo 3201 7pm</footer>
 </body>
 </html>
